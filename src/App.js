@@ -1,12 +1,11 @@
 import Header from "./Header";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <main>
-        <h1>🛍️</h1>
-      </main>
+      <Weather></Weather>
     </div>
   );
 }
