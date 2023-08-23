@@ -61,12 +61,10 @@ export default function Weather() {
 
               <div className={styles.maxMin}>
                 <p className={styles.p}>
-                  Max: {""}
                   {weather.forecast.forecastday[0].day.maxtemp_c}&deg;C
                 </p>
-
                 <p className={styles.p}>
-                  Min: {weather.forecast.forecastday[0].day.mintemp_c}&deg;C
+                  {weather.forecast.forecastday[0].day.mintemp_c}&deg;C
                 </p>
               </div>
 
